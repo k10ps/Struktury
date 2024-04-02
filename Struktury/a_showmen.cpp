@@ -57,7 +57,7 @@ do {
         case 3: {e1.lookV(std::rand()); std::cout << "Sukces" << std::endl<< std::endl; break;}
         case 4: {e1.whatSize(); break;}
         case 5: {e1.wypisz(); break;}
-        case 6: {if(!e1.ifempty()){e1.removeEnd();}//jezeli nie jest pusta usuwa wszystkie elementy
+        case 6: {if(!e1.empty()){e1.removeEnd();}//jezeli nie jest pusta usuwa wszystkie elementy
             readCSVFile("random_numbers.csv", e1); //zgrywanie z pliku linia po lini addEnd
             break;
         }
