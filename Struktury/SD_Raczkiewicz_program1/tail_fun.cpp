@@ -1,7 +1,6 @@
 #include <iostream>
 #include "tail_class.hpp"
 
-/*
 
 template <typename E>
 TLinkedList<E>::TLinkedList(): head(NULL), tail(NULL), size(0) { }
@@ -157,5 +156,3 @@ void TLinkedList<E>::lookV(int co) const {
     }
     std::cout << "Nie mozna znalezc wartosci: " << co << std::endl;
 }
-
-*/

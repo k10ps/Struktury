@@ -1,7 +1,6 @@
 #include <iostream>
 #include "head_class.hpp"
 
-/*
 
 template <typename E>
 SLinkedList<E>::SLinkedList(): head(NULL), size(0) { } //konstruktor
@@ -25,7 +24,7 @@ void SLinkedList<E>::wypisz() const{
 }
 
 template <typename E>
-void SLinkedList<E>::whatSize()const{ std::cout<<"Ilosc elementow: "<<size<<std::endl;}
+void SLinkedList<E>::whatSize()const{ std::cout<<"Ilosc elementow: "<<size<<std::endl;std::cout<<"Rozmiar: "<<capacity<<std::endl;}
     
 template <typename E>
 void SLinkedList<E>::addFront(const E& val) 
@@ -164,4 +163,4 @@ void SLinkedList<E>::lookV(int co) const{
     //std::cout << "Nie mozna znalezc wartosci: " << co << std::endl;
 }
 
-*/
+

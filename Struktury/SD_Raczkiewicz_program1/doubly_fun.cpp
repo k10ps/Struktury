@@ -1,7 +1,6 @@
 #include <iostream>
 #include "doubly_class.hpp"
 
-/*
 //konstruktor
 template <typename E>
 DoublyList<E>::DoublyList() {
@@ -37,7 +36,7 @@ bool DoublyList<E>::closerT(int where) const {
 }
 
 template <typename E>
-void DoublyList<E>::whatSize()const{ std::cout<<"Ilosc elementow: "<<size<<std::endl;}
+void DoublyList<E>::whatSize()const{ std::cout<<"Ilosc elementow: "<<size<<std::endl;std::cout<<"Rozmiar: "<<capacity<<std::endl;}
 
 template <typename E>
 void DoublyList<E>::wypisz() const{
@@ -161,4 +160,4 @@ void DoublyList<E>::lookV(int co)const{
     
 }
 
-*/
+

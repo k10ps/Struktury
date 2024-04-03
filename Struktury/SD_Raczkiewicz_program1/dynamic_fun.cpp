@@ -1,7 +1,7 @@
 #include <iostream>
 #include "dynamic_class.hpp"
 
-/*
+
 //konstruktor tworzy nam pusta tablice
 template <typename E>
 Dynamic<E>::Dynamic(): capacity(10), size(0), array(new int[capacity]) {  }
@@ -11,7 +11,7 @@ Dynamic<E>::~Dynamic(){delete[] array;}
 
 
 template <typename E>
-bool Dynamic<E>::empty()const{return (size==0);}
+bool Dynamic<E>::ifempty()const{return (size==0);}
 
 template <typename E>
 void Dynamic<E>::wypisz()const{ for(int i=0; i<size; i++)   { std::cout<<array[i]<<std::endl;}}
@@ -87,7 +87,7 @@ void Dynamic<E>::resize(int opcja, int val, int index){
 template <typename E>
 void Dynamic<E>::remove(int index){
     int a=array[index]; //zapamietujemyw wartosc by wypisac ja na koncu
-    //przesuwamy elementy w lewo
+    przesuwamy elementy w lewo
     if(size>0)
     {
     for(int i=index; i<size-1; i++)
@@ -115,4 +115,4 @@ void Dynamic<E>::removeFront(){
 }
 
 
-*/
+

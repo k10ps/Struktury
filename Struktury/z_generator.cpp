@@ -22,7 +22,7 @@ void writeRandomNumbersToCSV(const std::string& filename, int numberOfLines) {
 
 int main() {
     std::string filename = "random_numbers.csv";
-    int numberOfLines = 5000; // Możesz zmienić tę wartość na dowolną, aby uzyskać więcej lub mniej linii z losowymi liczbami
+    int numberOfLines = 5000; //ilosc lini=ilosc elementow
 
     writeRandomNumbersToCSV(filename, numberOfLines);
     std::cout << "Wygenerowano i zapisano " << numberOfLines << " losowych liczb do pliku: " << filename << std::endl;
